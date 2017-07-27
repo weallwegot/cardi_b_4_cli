@@ -1,0 +1,28 @@
+{
+  "name": "cardib4cli",
+  "version": "1.0.0",
+  "description": "Print Cardi B Quotes when you start shell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weAllWeGot/cardi_b_4_cli.git"
+  },
+  "keywords": [
+    "cli",
+    "cardi b",
+    "quotes",
+    "lyrics"
+  ],
+  "author": "",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/weAllWeGot/cardi_b_4_cli/issues"
+  },
+  "homepage": "https://github.com/weAllWeGot/cardi_b_4_cli#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
