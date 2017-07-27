@@ -1,9 +1,10 @@
-# cardi b quotes in your terminal. originally forked from captainsafia/fortuity 
-
-BECAUSE vvvv
+# cardi b quotes in your terminal. 
+originally forked from [captainsafia/fortuity](https://github.com/captainsafia/fortuity) 
+i had to make a quick dirty api, but source code for that is [here](https://github.com/weAllWeGot/CardiB_api) 
 
 
 ![this_is_why](https://media.giphy.com/media/xTiN0kxizOHzdVMYus/giphy.gif)
+
 
 Hope to extend the functionality and the api it uses to include more artists and deeper catalogues.
 
