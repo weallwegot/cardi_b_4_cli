@@ -1,6 +1,8 @@
 # cardi b quotes in your terminal. originally forked from captainsafia/fortuity 
 
 BECAUSE vvvv
+
+
 ![this_is_why](https://media.giphy.com/media/xTiN0kxizOHzdVMYus/giphy.gif)
 
 Hope to extend the functionality and the api it uses to include more artists and deeper catalogues.
@@ -33,3 +35,4 @@ $ echo 'cardib4cli' >> ~/.config/fish/config.fish
 ```
 
 ### Usage
+![demo](http://g.recordit.co/KBxtxFJlg1.gif)
