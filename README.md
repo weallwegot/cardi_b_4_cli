@@ -1,4 +1,4 @@
-# cardi b quotes in your terminal. 
+# quotes and wisdom in your terminal. james baldwin, rappers, and various devs.
 originally forked from [captainsafia/fortuity](https://github.com/captainsafia/fortuity) 
 i had to make a quick dirty api, but source code for that is [here](https://github.com/weAllWeGot/CardiB_api) 
 
