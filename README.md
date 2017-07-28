@@ -83,4 +83,6 @@ $ echo 'cardib4cli' >> ~/.config/fish/config.fish
 ### Usage
 ![baldwin_demo](http://g.recordit.co/ZeelOhfxKc.gif)
 
+![gen_demo](http://g.recordit.co/ggx9CQYZiq.gif)
+
 ![demo](http://g.recordit.co/KBxtxFJlg1.gif)
