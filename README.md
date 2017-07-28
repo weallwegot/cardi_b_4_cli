@@ -48,7 +48,7 @@ $ echo 'cardib4cli' >> ~/.bash_profile
 
 For a quote or lyric from kanye west & jay-z only
 ```
-$ echo 'cardib4cli kanye_west jay-z' >> ~/.bash_profile
+$ echo 'cardib4cli kanye_west jay_z' >> ~/.bash_profile
 ```
 
 
@@ -68,7 +68,7 @@ For only lauryn_hill quotes
 ```
 $ echo 'cardib4cli lauryn_hill' >> ~/.bash_profile
 ```
-
+etc....
 Same applies in scenarios below.
 **Zsh**
 ```
