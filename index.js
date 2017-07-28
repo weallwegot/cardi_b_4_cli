@@ -26,38 +26,42 @@ if(all_args.length>2){
   };
 }
 
-if(true){
-  request(options, function(error, response, body) {
-    if (error) {
-        console.error(error);
-    }
-    if (response.statusCode === 200) {
-      // bc sometimes it gets returned in strange format? idk what im doing
-      if(body.toString() === "[object Object]"){
-        var new_body = body
-      } else {
-        var new_body=JSON.parse(body)
-      }
-      
 
-      if(new_body.meta.code > 399){
-        console.log(new_body.error.message)
-      } else {
-
-        var lyric = new_body.data.lyric
-        var song = new_body.data.song
-        var author = new_body.data.author
-        if(song.length>0){
-          console.log(lyric, '--',author, 'in' ,song)
-        } else {
-          console.log(lyric, '--', author);
-        }
-      }
-
-
+var r = request(options, function(error, response, body) {
+  if (error) {
+      console.error(error);
+  }
+  if (response.statusCode === 200) {
+    // bc sometimes it gets returned in strange format? idk what im doing
+    if(body.toString() === "[object Object]"){
+      var new_body = body
     } else {
-      console.log(JSON.stringify(body))
-      console.error('Error:', response.statusCode, ':', response.statusMessage);
+      var new_body=JSON.parse(body)
     }
-  })
-};
+    
+
+    if(new_body.meta.code > 399){
+      console.log(new_body.error.message)
+    } else {
+
+      var lyric = new_body.data.lyric
+      var song = new_body.data.song
+      var author = new_body.data.author
+      if(song.length>0){
+        console.log(lyric, '--',author, 'in' ,song)
+      } else {
+        console.log(lyric, '--', author);
+      }
+    }
+
+
+  } else {
+    console.log(JSON.stringify(body))
+    console.error('Error:', response.statusCode, ':', response.statusMessage);
+  }
+});
+r.end();
+function endIt(){
+  process.exit(1)
+}
+setTimeout(endIt,300)
