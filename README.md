@@ -46,7 +46,7 @@ $ echo 'cardib4cli' >> ~/.bash_profile
 ```
 
 
-For a quote or lyric from kanye west & jay-z only
+For lyrics only from kanye west or jay-z 
 ```
 $ echo 'cardib4cli kanye_west jay_z' >> ~/.bash_profile
 ```
