@@ -64,4 +64,4 @@ r.end();
 function endIt(){
   process.exit(1)
 }
-setTimeout(endIt,300)
+setTimeout(endIt,1000)
