@@ -70,6 +70,7 @@ $ echo 'cardib4cli lauryn_hill' >> ~/.bash_profile
 ```
 etc....
 Same applies in scenarios below.
+
 **Zsh**
 ```
 $ echo 'cardib4cli' >> ~/.zprofile 
