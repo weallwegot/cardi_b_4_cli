@@ -67,6 +67,7 @@ var r = request(options, function(error, response, body) {
 });
 //r.end();
 function endIt(){
+  r.end()
   process.exit(1)
 }
 setTimeout(endIt,450)
