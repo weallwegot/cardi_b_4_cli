@@ -2,11 +2,16 @@
 'use strict';
 
 const request = require('request');
+const debug = false
 
+if(debug){
+  var url_to_use = 'http://localhost:5000/api/v1'
+} else {
+  var url_to_use = 'http://cardibbars.pythonanywhere.com/api/v1'
+}
 
-const live_url = 'http://cardibbars.pythonanywhere.com/api/v1'
-//const url_test = 'http://localhost:5000/api/v1'
 var all_args = process.argv
+
 if(all_args.length>2){
   var val_args = all_args.slice(2)
   var my_json_body = {
@@ -14,14 +19,14 @@ if(all_args.length>2){
     category: val_args
   }
   var options = {
-    url: live_url,
+    url: url_to_use,
     method: 'POST',
     json: true, 
     body: my_json_body
   };
 } else {
   var options = {
-    url: live_url,
+    url: url_to_use,
     method: 'GET'
   };
 }
@@ -60,8 +65,8 @@ var r = request(options, function(error, response, body) {
     console.error('Error:', response.statusCode, ':', response.statusMessage);
   }
 });
-r.end();
+//r.end();
 function endIt(){
   process.exit(1)
 }
-setTimeout(endIt,1000)
+setTimeout(endIt,450)
