@@ -5,6 +5,13 @@ i had to make a quick dirty api, but source code for that is [here](https://gith
 
 ![this_is_why](https://media.giphy.com/media/xTiN0kxizOHzdVMYus/giphy.gif)
 
+### Demo
+![baldwin_demo](http://g.recordit.co/ZeelOhfxKc.gif)
+
+![gen_demo](http://g.recordit.co/ggx9CQYZiq.gif)
+
+![demo](http://g.recordit.co/KBxtxFJlg1.gif)
+
 
 Hope to extend the functionality and the api it uses to include more artists and deeper catalogues.
 
@@ -81,9 +88,3 @@ $ echo 'cardib4cli' >> ~/.zprofile
 $ echo 'cardib4cli' >> ~/.config/fish/config.fish
 ```
 
-### Usage
-![baldwin_demo](http://g.recordit.co/ZeelOhfxKc.gif)
-
-![gen_demo](http://g.recordit.co/ggx9CQYZiq.gif)
-
-![demo](http://g.recordit.co/KBxtxFJlg1.gif)
