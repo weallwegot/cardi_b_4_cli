@@ -1,5 +1,8 @@
 # quotes and wisdom in your terminal. 
 
+------------------------------------
+ ### [Project Inspiration](https://andcomputers.io/bars-for-days-chips-with-lays/)
+
 james baldwin, rappers, and various devs.
 originally forked from [captainsafia/fortuity](https://github.com/captainsafia/fortuity).
 
