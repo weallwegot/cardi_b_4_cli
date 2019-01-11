@@ -8,6 +8,8 @@ yarn-error.log*
 #IDE specific directories
 .vscode
 
+# OSX System Files
+*.DS_Store
 # Runtime data
 pids
 *.pid
