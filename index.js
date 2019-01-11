@@ -7,7 +7,7 @@ const debug = false
 if(debug){
   var url_to_use = 'http://localhost:5000/api/v1'
 } else {
-  var url_to_use = 'http://cardibbars.pythonanywhere.com/api/v1'
+  var url_to_use = 'https://a3odwonexi.execute-api.us-east-2.amazonaws.com/default/Bars_API'
 }
 
 var all_args = process.argv
@@ -70,4 +70,4 @@ function endIt(){
   r.end()
   process.exit(1)
 }
-setTimeout(endIt,450)
+setTimeout(endIt,1500)
