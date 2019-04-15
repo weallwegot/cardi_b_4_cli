@@ -1,7 +1,7 @@
 {
   "name": "cardib4cli",
   "version": "2.3.1",
-  "description": "Print Cardi B Quotes when you start shell.",
+  "description": "Print lyrics and/or quotes from your favorite rappers and philosphers when you start shell.",
   "main": "index.js",
   "bin": {
     "cardib4cli": "index.js"
@@ -17,7 +17,9 @@
     "cli",
     "cardi b",
     "quotes",
-    "lyrics"
+    "lyrics",
+    "rap",
+    "music"
   ],
   "author": "",
   "license": "(MIT OR Apache-2.0)",
