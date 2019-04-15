@@ -1,6 +1,6 @@
 {
   "name": "cardib4cli",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Print Cardi B Quotes when you start shell.",
   "main": "index.js",
   "bin": {
