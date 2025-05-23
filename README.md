@@ -178,12 +178,6 @@ Thanks in advance :blush:
 
 #### Donating
 
-If ya feeling generous, hollr @ the kid :heart:
+If ya feeling generous, [hollr @ the kid](https://buy.stripe.com/7sIg1Udac6xZegodQR) :heart:
 
-https://www.paypal.me/hijodelsol
 
-**BTC: 3EbMygEoo8gqgPHxmqa631ZVSwgWaoCj3m**
-
-**ETH: 0x2F2604AA943dB4E7257636793F38dD3B1808A9e7**
-
-**LTC: MQVgzNDgw43YzyUg3XmH3jQ7L8ndVswmN3**
