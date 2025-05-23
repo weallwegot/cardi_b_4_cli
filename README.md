@@ -120,43 +120,43 @@ The options presented below are essentially command line arguments and you can u
 
 For a quote or lyric from any of the sources listed above use the following
 ```
-$ echo 'cardib4cli' >> ~/.bash_profile
+$ echo 'cardib4cli' >> ~/.bashrc
 ```
 
 For a quote or lyric from any of the source above, but also safe for work and free of any cursing or offensive language
 
 ```
-$ echo 'cardib4cli sfw' >> ~/.bash_profile
+$ echo 'cardib4cli sfw' >> ~/.bashrc
 ```
 
 For lyrics only from kanye west or jay-z 
 ```
-$ echo 'cardib4cli kanye_west jay_z' >> ~/.bash_profile
+$ echo 'cardib4cli kanye_west jay_z' >> ~/.bashrc
 ```
 
 
 For only james baldwin quotes
 ```
-$ echo 'cardib4cli james_baldwin' >> ~/.bash_profile
+$ echo 'cardib4cli james_baldwin' >> ~/.bashrc
 ```
 
 
 For only inspirational coding quotes
 ```
-$ echo 'cardib4cli inspirational_code' >> ~/.bash_profile
+$ echo 'cardib4cli inspirational_code' >> ~/.bashrc
 ```
 
 
 For only lauryn_hill quotes
 ```
-$ echo 'cardib4cli lauryn_hill' >> ~/.bash_profile
+$ echo 'cardib4cli lauryn_hill' >> ~/.bashrc
 ```
 etc....
 Same applies in scenarios below.
 
 **Zsh**
 ```
-$ echo 'cardib4cli' >> ~/.zprofile 
+$ echo 'cardib4cli' >> ~/.zshrc 
 ```
 
 **Fish**
@@ -164,6 +164,9 @@ $ echo 'cardib4cli' >> ~/.zprofile
 $ echo 'cardib4cli' >> ~/.config/fish/config.fish
 ```
 
+💡 After editing, run:
+source ~/.bashrc
+to apply changes right away.
 
 ## Contributing
 
